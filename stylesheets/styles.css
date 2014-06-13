@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper {
-  width: 640px;
+  width: 840px;
   margin: 0 auto;
   background: #DEDEDE;
   -webkit-border-radius: 8px;
@@ -57,13 +57,13 @@ header {
   -ms-border-radius: 8px 8px 0 0;
   -o-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: #C6EAFA;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ddfbfc), color-stop(100%, #c6eafa));
-  background: -webkit-linear-gradient(#ddfbfc, #c6eafa);
-  background: -moz-linear-gradient(#ddfbfc, #c6eafa);
-  background: -o-linear-gradient(#ddfbfc, #c6eafa);
-  background: -ms-linear-gradient(#ddfbfc, #c6eafa);
-  background: linear-gradient(#ddfbfc, #c6eafa);
+  background: #000000;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(#000000, #000000);
+  background: -moz-linear-gradient(#000000, #000000);
+  background: -o-linear-gradient(#000000, #000000);
+  background: -ms-linear-gradient(#000000, #000000);
+  background: linear-gradient(#000000, #000000);
   position: relative;
   padding: 15px 20px;
   border-bottom: 1px solid #B2D2E1;
@@ -73,7 +73,7 @@ header h1 {
   padding: 0;
   font-size: 24px;
   line-height: 1.2;
-  color: #069;
+  color: #ffffff;
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
 }
 header.without-description h1 {
@@ -251,6 +251,18 @@ pre code {
 li pre {
   margin-left: -60px;
   padding-left: 60px;
+}
+wtbox {
+	background-color:#fff;
+	color: #222;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	display: block;
+	box-shadow: none;
+	overflow: auto;
+	border-radius: 2px;
+	  -moz-border-radius: 2px;
+	  -webkit-border-radius: 2px;
 }
 
 table {
